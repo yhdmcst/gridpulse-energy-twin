@@ -1,0 +1,31 @@
+* text=auto
+.gitattributes text eol=lf
+.gitignore text eol=lf
+*.py text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.sh text eol=lf
+*.mjs text eol=lf
+*.ps1 text eol=crlf
+*.toml text eol=lf
+*.ini text eol=lf
+*.txt text eol=lf
+*.csv text eol=lf
+*.png binary
+*.gif binary
+*.jpg binary
+*.svg text eol=lf
+*.html text eol=lf
+*.css text eol=lf
+*.js text eol=lf
+*.pdf binary
+*.zip binary
+*.pt binary
+*.joblib binary
+
+# These original experiment sources are checked byte-for-byte by their manifest.
+experiments/fusion_v8/frozen_source/** -text
+experiments/fusion_v8/protocol.md -text
+experiments/fusion_v8/run_remote.sh -text

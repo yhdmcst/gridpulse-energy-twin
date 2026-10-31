@@ -1,0 +1,16 @@
+{
+  "purpose": "Derived fixed-selection v8 analysis; no frozen artifacts modified.",
+  "source_sha256": {
+    "outputs/fusion_v8/manifest.json": "7f56602489ef49e945f24ae40fafa1f200f59e47bdf48059adb83d7e277f46ee",
+    "outputs/fusion_v8/ARTIFACT_SHA256.json": "62342bc14701fab2b622a0be6dc8633423ef81766ae7d272ed3758da202e9c8b",
+    "outputs/fusion_v8/metrics.json": "ec4034e4d5eeeb1b44475f7d19e5031a2cc476c099324d900bd24c5aaea0c8ca",
+    "outputs/fusion_v8/selection.json": "2c3e1e9cf448d7bd890590434d48819af2080463bf69a3e5de6e67e1af526020",
+    "outputs/fusion_v8/Figure_1.png": "8d80a9319a155fe926f3565b1ab5fd41321717d77ba28c72f0fcc3fdf29f6d25",
+    "outputs/fusion_v8/Figure_2.png": "25f4556c862c9fb55052ab614cd3dd1098543d91dc7b4955ca32beac4c5e8f19",
+    "outputs/fusion_v8_local_verification.json": "9a2a1d51d0829719e737dd812b2cdb3889501ada1357fa32b8c7f983a81c7085",
+    "outputs/fusion_v8_regression_tests.txt": "f9ec72206bea32fbfa22f05fb67fd582774e404618f631536048d24fe80cc5c6",
+    "scripts/analyze_envelope_results.py": "ee73f62f9e564e5d594cbaf686787d5d7a43c2045f34742caa75fb6d349541bf",
+    "outputs/fusion_v8_analysis.json": "1077ee14a5a7291089357e4b6c5dd8fde38bcb12ac834fe97bfc7464a3a93753"
+  },
+  "statistical_unit": "Paired complete UTC days, fixed seed42, inspected years."
+}

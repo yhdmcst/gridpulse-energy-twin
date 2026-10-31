@@ -1,0 +1,43 @@
+# Local Python and editor state
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.ipynb_checkpoints/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Credentials and machine-specific settings
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+*.pem
+*.key
+.claude/
+.codex/
+
+# Prepared evidence and newly generated experiment products
+/outputs/
+/data/raw/
+/data/processed/
+/runtime/
+/workspace_cache/
+/tmp/
+/submission/
+/*.zip
+*.log
+
+# Optional presentation tooling
+node_modules/
+package-lock.json
+
+# Evidence ZIPs under artifacts/ are intentional, versioned release inputs.

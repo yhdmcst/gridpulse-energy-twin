@@ -1,0 +1,75 @@
+{
+  "expected_quarter_hours": 35832,
+  "received_quarter_hours": 35832,
+  "missing_quarter_hours": 0,
+  "missing_by_source_field": {
+    "load": 0,
+    "solar": 0,
+    "wind_onshore": 0,
+    "wind_offshore": 0
+  },
+  "incomplete_hours_by_field": {
+    "load": 0,
+    "solar": 0,
+    "wind_onshore": 0,
+    "wind_offshore": 0
+  },
+  "hourly_rows": 8958,
+  "missing_hourly_net_load": 0,
+  "negative_source_values": {
+    "load": 0,
+    "solar": 0,
+    "wind_onshore": 0,
+    "wind_offshore": 0
+  },
+  "aggregation": "Mean of exactly four quarter-hour MW observations; incomplete hours remain NaN.",
+  "descriptive_statistics": {
+    "total_load_mw": {
+      "count": 8958.0,
+      "mean": 54985.757504465284,
+      "std": 9567.822220384229,
+      "min": 34122.3,
+      "25%": 47107.20625,
+      "50%": 54940.337499999994,
+      "75%": 62407.206249999996,
+      "max": 78680.35
+    },
+    "solar_generation_mw": {
+      "count": 8958.0,
+      "mean": 6085.276892163429,
+      "std": 9269.88750320129,
+      "min": 0.0,
+      "25%": 0.0,
+      "50%": 161.8625,
+      "75%": 9833.0875,
+      "max": 36490.55
+    },
+    "wind_generation_mw": {
+      "count": 8958.0,
+      "mean": 14083.110691560614,
+      "std": 10644.336363291104,
+      "min": 221.72500000000002,
+      "25%": 5381.19375,
+      "50%": 10822.625,
+      "75%": 21113.16875,
+      "max": 46532.799999999996
+    },
+    "net_load_mw": {
+      "count": 8958.0,
+      "mean": 34817.369920741236,
+      "std": 12179.080323263255,
+      "min": 3485.474999999995,
+      "25%": 26699.9,
+      "50%": 35025.45,
+      "75%": 43059.925,
+      "max": 71010.97499999999
+    }
+  },
+  "protocol_sha256": "3601ad4085641c15244815269376e711c369174fc2ff5cfd1e89c2615b896feb",
+  "raw_sha256": "f9bc279b4c52c5ebc33f4e2cb39aec75df3653c73edbfbdcebcd4c48ac2c41e5",
+  "dataset_sha256": "be366dea9f42af0f2ab81a2737123783378178f37b197e52099cd24a7000cfda",
+  "source_url": "https://api.energy-charts.info/v2/public_power?country=de&start=2021-12-24T00:00Z&end=2023-01-01T06:00Z",
+  "license": "CC BY 4.0 (creativecommons.org/licenses/by/4.0), attribution: energy-charts.info",
+  "provider_generated_at": "2026-10-09T18:23:14+02:00",
+  "downloaded_at_utc": "2026-10-09T16:24:01.029301+00:00"
+}

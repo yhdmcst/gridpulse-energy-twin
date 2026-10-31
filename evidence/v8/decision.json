@@ -1,0 +1,8 @@
+{
+  "selected_policy": "envelope_tail",
+  "selection_sha256": "2c3e1e9cf448d7bd890590434d48819af2080463bf69a3e5de6e67e1af526020",
+  "new_in_envelope_runs": 60,
+  "new_in_envelope_recovery_passed": true,
+  "realtime_default_admitted": false,
+  "ui_action": "offline_only_no_ui_changes"
+}

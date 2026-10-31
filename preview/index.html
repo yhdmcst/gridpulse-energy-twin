@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>GridPulse / 展示预览</title>
+  <style>
+    :root { color-scheme: light dark; --bg: #f8faf9; --ink: #21312b; --muted: #596c62; --line: #cbd8cf; --accent: #007f68; }
+    @media (prefers-color-scheme: dark) { :root { --bg: #151a1c; --ink: #edf4f0; --muted: #adbbb4; --line: #35463c; --accent: #47d1b5; } }
+    * { box-sizing: border-box; }
+    body { margin: 0; color: var(--ink); background: var(--bg); font: 15px/1.6 "Segoe UI", "Microsoft YaHei", sans-serif; }
+    main { max-width: 1040px; margin: 0 auto; padding: 28px 32px 50px; }
+    header { display: flex; align-items: center; justify-content: space-between; gap: 20px; border-bottom: 1px solid var(--line); padding-bottom: 18px; }
+    header strong { font-size: 22px; } header a { font-size: 13px; }
+    a { color: var(--accent); text-decoration: none; } a:hover { text-decoration: underline; }
+    a:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
+    h1 { font-size: 29px; font-weight: 600; letter-spacing: 0; margin: 32px 0 24px; }
+    .file { display: grid; grid-template-columns: 36px minmax(0, 1fr) auto; gap: 16px; align-items: center; border-top: 1px solid var(--line); padding: 22px 0; }
+    .file:last-of-type { border-bottom: 1px solid var(--line); }
+    .file > svg { width: 22px; height: 22px; color: var(--accent); }
+    .file > div > a { font-size: 18px; font-weight: 550; }
+    .file small { display: block; color: var(--muted); font-size: 12px; margin-top: 4px; overflow-wrap: anywhere; }
+    .type { color: var(--muted); font: 12px Consolas, monospace; }
+    .screenshots { display: flex; flex-wrap: wrap; gap: 12px 24px; font-size: 13px; margin-top: 26px; }
+    footer { margin-top: 32px; color: var(--muted); font-size: 12px; border-top: 1px solid var(--line); padding-top: 18px; }
+    @media (max-width: 600px) { main { padding: 22px 20px; } h1 { font-size: 25px; } .file { gap: 10px; grid-template-columns: 27px minmax(0, 1fr); } .type { display: none; } .file > div > a { font-size: 16px; } }
+  </style>
+  <script src="../docs/showcase/lucide.min.js" defer></script>
+</head>
+<body>
+  <main>
+    <header><strong>GridPulse</strong><a href="../README.md">项目 README / Repository</a></header>
+    <h1>展示预览 <span lang="en">/ Preview</span></h1>
+    <section aria-label="展示文件 / Presentation files">
+      <div class="file">
+        <i data-lucide="circle-play" aria-hidden="true"></i>
+        <div><a href="GridPulse-SVG演示.html">HTML / SVG 动画演示</a><small lang="en">GridPulse V8 Motion Study · 28 s</small></div>
+        <span class="type">HTML / SVG</span>
+      </div>
+      <div class="file">
+        <i data-lucide="book-open" aria-hidden="true"></i>
+        <div><a href="README预览.html">中文版 README 预览</a><small>简体中文 · 浅色 / 深色</small></div>
+        <span class="type">HTML</span>
+      </div>
+      <div class="file">
+        <i data-lucide="languages" aria-hidden="true"></i>
+        <div><a href="README_EN预览.html" lang="en">English README Preview</a><small lang="en">English · Light / Dark</small></div>
+        <span class="type">HTML</span>
+      </div>
+    </section>
+    <nav class="screenshots" aria-label="截图与说明 / Screenshots and notes">
+      <a href="README预览.png">中文 · 浅色截图</a>
+      <a href="README预览-dark.png">中文 · 深色截图</a>
+      <a href="README_EN预览.png">English · Light</a>
+      <a href="README_EN预览-dark.png">English · Dark</a>
+      <a href="README体验升级说明.md">升级说明 / Release Notes</a>
+    </nav>
+    <footer>OFFLINE RESEARCH / <a href="../docs/showcase/provenance.json">数据溯源 / Data Provenance</a></footer>
+  </main>
+  <script>document.addEventListener("DOMContentLoaded", function () { if (window.lucide) window.lucide.createIcons(); });</script>
+</body>
+</html>

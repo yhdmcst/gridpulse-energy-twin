@@ -1,0 +1,19 @@
+[global]
+developmentMode = false
+
+[logger]
+level = "warning"
+
+[server]
+headless = true
+enableCORS = true
+
+[browser]
+gatherUsageStats = false
+
+[theme]
+primaryColor = "#007f75"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f3f5f6"
+textColor = "#202629"
+font = "sans serif"

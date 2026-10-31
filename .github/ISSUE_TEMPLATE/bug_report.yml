@@ -1,0 +1,21 @@
+name: Bug Report
+description: Report a reproducible code, evidence, or dashboard issue.
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Observed and Expected Behavior
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Reproduction Steps
+      description: Include commands and selected experiment conditions. Do not include credentials or private data.
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      placeholder: OS, Python version, dependency versions

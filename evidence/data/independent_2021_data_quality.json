@@ -1,0 +1,82 @@
+{
+  "expected_quarter_hours": 35832,
+  "received_quarter_hours": 35832,
+  "missing_quarter_hours": 0,
+  "missing_by_source_field": {
+    "load": 0,
+    "solar": 0,
+    "wind_onshore": 0,
+    "wind_offshore": 0
+  },
+  "incomplete_hours_by_field": {
+    "load": 0,
+    "solar": 0,
+    "wind_onshore": 0,
+    "wind_offshore": 0
+  },
+  "hourly_rows": 8958,
+  "missing_hourly_net_load": 0,
+  "negative_source_values": {
+    "load": 0,
+    "solar": 0,
+    "wind_onshore": 0,
+    "wind_offshore": 0
+  },
+  "aggregation": "Mean of exactly four quarter-hour MW observations; incomplete hours remain NaN.",
+  "descriptive_statistics": {
+    "total_load_mw": {
+      "count": 8958.0,
+      "mean": 57422.32163429337,
+      "std": 9553.886015645288,
+      "min": 36580.6,
+      "25%": 49636.25625,
+      "50%": 57158.1375,
+      "75%": 65293.100000000006,
+      "max": 81319.475
+    },
+    "solar_generation_mw": {
+      "count": 8958.0,
+      "mean": 5083.5558830096015,
+      "std": 7869.294390431789,
+      "min": 0.0,
+      "25%": 0.0,
+      "50%": 124.85,
+      "75%": 8155.26875,
+      "max": 35314.175
+    },
+    "wind_generation_mw": {
+      "count": 8958.0,
+      "mean": 13184.548626925653,
+      "std": 9946.867984015531,
+      "min": 134.625,
+      "25%": 5558.549999999999,
+      "50%": 10410.1125,
+      "75%": 18751.25,
+      "max": 46955.975
+    },
+    "net_load_mw": {
+      "count": 8958.0,
+      "mean": 39154.21712435812,
+      "std": 12282.166511256772,
+      "min": 4064.7500000000055,
+      "25%": 31127.65625,
+      "50%": 39608.2,
+      "75%": 47786.075000000004,
+      "max": 70449.90000000001
+    }
+  },
+  "source_url": "https://api.energy-charts.info/v2/public_power?country=de&start=2020-12-24T00:00Z&end=2022-01-01T06:00Z",
+  "raw_sha256": "4e14b02248fddabc8f5bd979d3ed55e665ee4b7d92365aa8cec3b837bdd2111b",
+  "dataset_sha256": "6b6dc76adb97441576359baea1f46a8f978390eae8dfdf2f8827b0376af833dc",
+  "license": "CC BY 4.0 (creativecommons.org/licenses/by/4.0), attribution: energy-charts.info",
+  "provider_generated_at": "2026-10-09T09:29:16+02:00",
+  "downloaded_at_utc": "2026-10-09T07:29:27.034290+00:00",
+  "source_fields": [
+    "load",
+    "solar",
+    "wind_onshore",
+    "wind_offshore"
+  ],
+  "evaluation_start": "2021-01-01T00:00:00+00:00",
+  "evaluation_end_exclusive": "2022-01-01T00:00:00+00:00"
+}

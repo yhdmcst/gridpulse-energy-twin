@@ -1,0 +1,14 @@
+pandas==2.3.3
+numpy==2.3.5
+altair==6.3.0
+pillow==12.3.0
+matplotlib==3.10.7
+scikit-learn==1.9.1
+scipy==1.18.1
+joblib==1.6.0
+streamlit==1.58.0
+# Keep Streamlit's media middleware compatible with Starlette's response API.
+starlette==0.49.3
+reportlab==5.0.1
+pypdf==6.1.1
+pytest==9.1.1

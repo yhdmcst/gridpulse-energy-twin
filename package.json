@@ -1,0 +1,18 @@
+{
+  "name": "gridpulse-energy",
+  "private": true,
+  "version": "0.1.0",
+  "description": "GridPulse competition prototype and presentation build tooling",
+  "type": "module",
+  "scripts": {
+    "ppt:setup": "node scripts/ppt/install-artifact-tool.mjs",
+    "ppt:build": "node scripts/ppt/build_gridpulse_deck.mjs",
+    "ppt:finalize": "node scripts/ppt/finalize_gridpulse_deck.mjs",
+    "ppt:validate": "npm run ppt:build && npm run ppt:finalize",
+    "preflight": "python scripts/final_preflight.py",
+    "report:pdf": "python scripts/export_report_pdf.py"
+  },
+  "engines": {
+    "node": ">=24"
+  }
+}

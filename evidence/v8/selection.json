@@ -1,0 +1,72 @@
+{
+  "selected_policy": "envelope_tail",
+  "fallback": false,
+  "candidates": {
+    "envelope_reference": {
+      "scenario_guards": {
+        "nominal": {
+          "physical": true,
+          "terminal": true,
+          "recovery": true,
+          "gates": true,
+          "peak": true,
+          "p95": false,
+          "throughput": true,
+          "loss": true
+        },
+        "combined90": {
+          "physical": true,
+          "terminal": true,
+          "recovery": true,
+          "gates": true,
+          "peak": true,
+          "p95": false,
+          "throughput": true,
+          "loss": true
+        }
+      },
+      "mean_p95_delta_mw": 28.063312716145447,
+      "mean_p95_mw": 55408.96709213257,
+      "mean_loss_mwh": 31015.052547951578,
+      "eligible": false
+    },
+    "envelope_tail": {
+      "scenario_guards": {
+        "nominal": {
+          "physical": true,
+          "terminal": true,
+          "recovery": true,
+          "gates": true,
+          "peak": true,
+          "p95": true,
+          "throughput": true,
+          "loss": true
+        },
+        "combined90": {
+          "physical": true,
+          "terminal": true,
+          "recovery": true,
+          "gates": true,
+          "peak": true,
+          "p95": true,
+          "throughput": true,
+          "loss": true
+        }
+      },
+      "mean_p95_delta_mw": -14.430524381205032,
+      "mean_p95_mw": 55366.47325503522,
+      "mean_loss_mwh": 31547.492945850434,
+      "eligible": true
+    }
+  },
+  "fixed_predictor": "data_seed42",
+  "validation_scenarios": [
+    "nominal",
+    "combined90"
+  ],
+  "scope": "Two fixed validation scenarios, not independent model seeds or sites.",
+  "frozen_utc": "2026-10-28T01:55:05.761808+00:00",
+  "validation_results_sha256": "e176e4eee4c66bc8ede79a507b25b70f037b98ec0ae25253ced507a7e9a7f58e",
+  "protocol_sha256": "9bcefc700613dd07b364cc7762e017a7983318b219cc322117a475726f696bad",
+  "validation_prediction_sha256": "8b755ed52fb7ecabb5a0d0b1c5756f4b295edbd09d82ec2d481a917d25982e6a"
+}

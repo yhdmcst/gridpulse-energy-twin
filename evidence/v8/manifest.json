@@ -1,0 +1,64 @@
+{
+  "created_utc": "2026-10-28T01:54:43.621415+00:00",
+  "gpu_used": false,
+  "workers": 3,
+  "versions": {
+    "python": "3.10.14",
+    "numpy": "1.26.4",
+    "pandas": "2.2.2",
+    "scipy": "1.13.1"
+  },
+  "code_sha256": {
+    "scripts/run_envelope_experiment.py": "e07ec221a1b696f68155df81b4e5c0a6a9aa2db13f5480246edf12a2eee2d000",
+    "scripts/verify_envelope_results.py": "62902177f0c5f6b6495eb23d4fa12d3de0c304c4438c7a69797e3412627f1fa5",
+    "scripts/run_tail_experiment.py": "bba33f30d1ecba9961d3ba91a5d9cdaf3ee2af4b6d87c8fccfa9c9f7ca5f648a",
+    "scripts/run_dispatch_experiment.py": "d8bf09a14d7f1f752445973f00d0466268e7097c0f6d04424d4258a8645b93e4",
+    "src/envelope_planning.py": "fe19cc5611d0b800b609a41fd27b9905f63eebee694d6de6b014fa8abb13eae3",
+    "src/envelope_selection.py": "619b5c0044077413c4c85dbce5925202e70fa598aa40b3d0fc4a538f0506e1e7",
+    "src/feedback_control.py": "691b57145de351490d074bf7c070c4e42fc4b230061d1ebc02d30c06a287ffe5",
+    "src/delayed_forecasts.py": "01f6873519c78abc9fff9e9a675450e4f92b67d2897834ef1676ea3de66ec719",
+    "src/recovery_control.py": "23244215bb4012e2d7bb4512e5e96e71ac35f3716cca2949cfbb7243eea61ed2",
+    "src/robustness_control.py": "3805209f27d870388c7e2b9c23de7464dbbd0d7d69be6c2c9ebeb5b0f240cd79",
+    "src/forecast_dispatch.py": "6c14bcad9cd90afa6bab6f2dedbfbba5aa82ec9bae6a648cd96d5613a75c3aff",
+    "src/balanced_storage.py": "a2c8e29a557c9d77defdc1dca8d81929a1561290a9efc0c7ebe70f7c185501cc",
+    "src/scenarios.py": "8bfa58a2011290730d474f8f871fc1baa7b8ac7bbfb18e3e26f4ecaf64fae23e",
+    "src/tail_control.py": "6651fa70880f56a1759d04251831989abdcca83b082056afaf199330894af448",
+    "src/tail_selection.py": "8936856febe1153421834652fd93b24f95d1146253f16ac7c2b064879ed3efce",
+    "src/trajectory_audit.py": "63f6a6dfe240d7df03389ab9f09e9846b240c3d8d796ed9e74eb4ada66924fd6",
+    "src/efficient_storage.py": "ef14658d6ec3d16c296fd5973f1a865947ecbc7112ba2ab4763a9263c4e137d4",
+    "src/optimality.py": "b8a7bbef7e6ad7decdb13d4cadf9c50e8e0fd4f41339c907c1f1c62aba8245e0",
+    "src/energy_twin.py": "a4391872f05e17d193138f0fb1169e7f6857b42d834a8f51c959ad4413b0d0da",
+    "src/numerics.py": "52a41c335bee8c96f73bf796f9e02632134a1751063cac64942fc5125b8b1a20",
+    "src/multihorizon_fusion.py": "f83727ced3dd26c170344eb3cb3600a684a61f47621e80d90d271f5ccf75a1c1",
+    "src/physics_forecast.py": "c752cf5c581d202997478437f79a6793fdfc717a788d84beae2b645ad0ccdd20",
+    "tests/test_envelope_planning.py": "fc8de6a41aa6a1c40e152ecd9641210a85282e3d196fe4539efbcfa03692ada8",
+    "experiments/fusion_v8/protocol.md": "9bcefc700613dd07b364cc7762e017a7983318b219cc322117a475726f696bad",
+    "experiments/fusion_v8/run_remote.sh": "010f6f62427b974464e9742f3c7ba3c6c1d3b035d05f7bd1eb27d89e90b05121"
+  },
+  "validation_prediction_sha256": "8b755ed52fb7ecabb5a0d0b1c5756f4b295edbd09d82ec2d481a917d25982e6a",
+  "source_calibration_sha256": "4f2073e08c05f88bc8d56da6141052fb35fbb7c82da48a572971be001e8ca61d",
+  "nominal_model": {
+    "capacity_mwh": 30000.0,
+    "charge_power_mw": 1250.0,
+    "discharge_power_mw": 1250.0,
+    "efficiency": 0.92,
+    "minimum_soc_mwh": 4500.0,
+    "initial_soc_mwh": 15000.0,
+    "maximum_soc_mwh": 15000.0
+  },
+  "planning_model": {
+    "capacity_mwh": 30000.0,
+    "charge_power_mw": 875.0,
+    "discharge_power_mw": 875.0,
+    "efficiency": 0.85,
+    "minimum_soc_mwh": 4500.0,
+    "initial_soc_mwh": 15000.0,
+    "maximum_soc_mwh": 15000.0
+  },
+  "recovery_envelope": {
+    "charge_power_mw": 875.0,
+    "efficiency": 0.85,
+    "max_observation_age_hours": 2.0
+  },
+  "scope": "Planning pipeline ablation, fixed seed42 and inspected years; offline only."
+}

@@ -1,0 +1,10 @@
+{
+  "status": "complete",
+  "validation_traces": 6,
+  "validation_reference_traces": 2,
+  "new_evaluation_traces": 64,
+  "byte_reused_baseline_traces": 32,
+  "reference_traces": 10,
+  "selected_policy": "envelope_tail",
+  "realtime_default_admitted": false
+}

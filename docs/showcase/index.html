@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark light">
+  <meta name="description" content="A real-data SVG motion study of the GridPulse V8 offline energy digital twin.">
+  <title>GridPulse / V8 Motion Study</title>
+  <link rel="stylesheet" href="player.css">
+  <script src="lucide.min.js" defer></script>
+  <script src="trace-data.js" defer></script>
+  <script src="player.js" defer></script>
+</head>
+<body>
+  <header class="masthead">
+    <a class="brand" href="../../README.md" aria-label="GridPulse README">
+      <span class="brand-mark" aria-hidden="true">G<span>P</span></span>
+      <span>GridPulse<small>V8 / MOTION STUDY</small></span>
+    </a>
+    <div class="header-actions">
+      <span class="offline-label"><span></span><b data-i18n="offline">离线冻结证据</b></span>
+      <div class="segmented" role="group" aria-label="Language">
+        <button type="button" id="lang-zh" aria-pressed="true">中</button>
+        <button type="button" id="lang-en" aria-pressed="false">EN</button>
+      </div>
+      <button class="icon-button" id="theme" type="button" title="切换主题 / Change theme" aria-label="切换主题 / Change theme"><i data-lucide="sun"></i></button>
+      <button class="icon-button fullscreen-control" id="fullscreen" type="button" title="全屏 / Full screen" aria-label="全屏 / Full screen"><i data-lucide="maximize"></i></button>
+    </div>
+  </header>
+
+  <main>
+    <section class="introduction" aria-labelledby="chapter-title">
+      <div>
+        <p class="eyebrow"><span id="chapter-number">01 / 04</span><span>GRIDPULSE ENERGY DIGITAL TWIN</span></p>
+        <h1 id="chapter-title">先预测，再决定。</h1>
+        <p id="chapter-description">六时距预测与误差区间，为保守规划提供输入。</p>
+      </div>
+      <div class="case-label">
+        <span data-i18n="selectedDay">选取的一日 · UTC</span>
+        <strong>2022.01.23</strong>
+        <span data-i18n="caseName">组合误差 + 注入故障</span>
+      </div>
+    </section>
+
+    <nav class="chapters" aria-label="Chapters">
+      <button type="button" data-chapter="0" aria-current="step"><span>01</span><b data-i18n="forecast">预测</b><i data-lucide="chart-no-axes-combined"></i></button>
+      <button type="button" data-chapter="1"><span>02</span><b data-i18n="planning">规划</b><i data-lucide="sliders-horizontal"></i></button>
+      <button type="button" data-chapter="2"><span>03</span><b data-i18n="fallback">回退</b><i data-lucide="shield-check"></i></button>
+      <button type="button" data-chapter="3"><span>04</span><b data-i18n="verify">核对</b><i data-lucide="scan-line"></i></button>
+    </nav>
+
+    <section class="workspace" aria-label="SVG playback">
+      <div class="plot-area">
+        <div class="plot-heading">
+          <div><span class="mini-label" data-i18n="netLoad">净负荷 / GW</span><strong id="current-time">00:00 <small>UTC</small></strong></div>
+          <div class="legend"><span class="actual" data-i18n="actual">实际</span><span class="controlled" data-i18n="controlled">V8 执行</span><span class="prediction" data-i18n="interval">预测区间</span></div>
+        </div>
+        <svg id="load-chart" viewBox="0 0 920 340" role="img" aria-labelledby="load-title load-description">
+          <title id="load-title">V8 hourly net load and forecast</title>
+          <desc id="load-description">A selected day from frozen offline evidence. A moving cursor follows actual and controlled net load; shaded regions show injected faults.</desc>
+          <defs><clipPath id="load-clip"><rect x="60" y="20" width="828" height="263"/></clipPath></defs>
+          <g id="load-grid"></g>
+          <g clip-path="url(#load-clip)">
+            <g id="fault-regions"></g>
+            <path id="forecast-band" class="forecast-band"></path>
+            <path id="prediction-path" class="prediction-line"></path>
+            <path id="actual-path" class="actual-line"></path>
+            <path id="controlled-path" class="controlled-line"></path>
+            <line id="load-cursor" class="cursor" y1="20" y2="283"></line>
+            <circle id="load-dot" r="5" class="load-dot"></circle>
+          </g>
+          <text x="60" y="324" class="axis-caption">UTC</text>
+          <g id="load-hours"></g>
+        </svg>
+
+        <div class="plot-heading second-heading">
+          <span class="mini-label" data-i18n="soc">储能电量 / GWh</span>
+          <div class="legend"><span class="energy" data-i18n="energy">实际电量</span><span class="floor" data-i18n="floor">恢复下界</span></div>
+        </div>
+        <svg id="soc-chart" viewBox="0 0 920 205" role="img" aria-label="Storage energy and recovery floor">
+          <g id="soc-grid"></g>
+          <path id="floor-path" class="floor-line"></path>
+          <path id="soc-path" class="soc-line"></path>
+          <line id="soc-cursor" class="cursor" y1="20" y2="159"></line>
+          <circle id="soc-dot" r="5" class="soc-dot"></circle>
+          <text x="888" y="18" text-anchor="end" class="target-label">15 GWh</text>
+          <g id="soc-hours"></g>
+        </svg>
+        <p class="chart-footnote" data-i18n="interpolation">曲线来自逐小时工件；帧间插值仅用于动画显示。</p>
+      </div>
+
+      <aside class="telemetry" aria-label="Current evidence">
+        <div class="telemetry-heading"><span data-i18n="state">执行状态</span><span id="state-indicator"></span></div>
+        <strong class="state-name" id="gate-state">正常规划</strong>
+        <p id="gate-explanation">预测与服务可用，允许调用主优化器。</p>
+        <dl class="readouts">
+          <div><dt data-i18n="socValue">当前电量</dt><dd><span id="soc-value">15.00</span><small>GWh</small></dd></div>
+          <div><dt data-i18n="power">净请求功率</dt><dd><span id="power-value">0</span><small>MW</small></dd></div>
+          <div><dt data-i18n="age">观测年龄</dt><dd><span id="age-value">1</span><small>h</small></dd></div>
+        </dl>
+        <div class="plan-settings"><span data-i18n="model">保守规划模型</span><strong>875 <small>MW</small> <em>/</em> 0.85 <small>η</small></strong></div>
+        <div class="call-status"><span data-i18n="solver">主优化器调用</span><b id="solver-call">是</b></div>
+        <div class="day-summary"><i data-lucide="check-check"></i><div><span data-i18n="dayEnd">该日末电量</span><strong>15.00 GWh</strong><small data-i18n="notAll">恢复 ≠ 全指标占优</small></div></div>
+      </aside>
+    </section>
+
+    <section class="transport" aria-label="Playback controls">
+      <div class="transport-main">
+        <button class="icon-button primary" id="play" type="button" title="暂停 / Pause" aria-label="暂停 / Pause"><i data-lucide="pause"></i></button>
+        <button class="icon-button" id="restart" type="button" title="重新播放 / Restart" aria-label="重新播放 / Restart"><i data-lucide="rotate-ccw"></i></button>
+        <output id="elapsed">00:00</output>
+        <input id="timeline" type="range" min="0" max="28" step="0.01" value="0" aria-label="Playback position">
+        <span class="duration">00:28</span>
+        <select id="speed" aria-label="Playback speed" title="播放速度 / Playback speed"><option value="0.5">0.5×</option><option value="1" selected>1×</option><option value="1.5">1.5×</option><option value="2">2×</option></select>
+      </div>
+      <div class="chapter-caption"><span id="chapter-caption">六时距预测 · 原始时距误差区间</span><span class="replay-label">V8 / FROZEN REPLAY</span></div>
+    </section>
+
+    <section class="evidence-strip" aria-label="Published evaluation summary">
+      <div><strong>30<span>/30</span></strong><p data-i18n="metricRecovery">范围内日末恢复</p></div>
+      <div><strong>11<span>/30</span></strong><p data-i18n="metricBudgets">全部性能预算通过</p></div>
+      <div><strong>204</strong><p data-i18n="metricArtifacts">原始冻结工件</p></div>
+      <p class="scope-note" data-i18n="scope">离线仿真中的一个选取日，不是屏幕录像或实机部署。完整评价包含退步及范围外恢复失败。</p>
+    </section>
+  </main>
+  <footer>
+    <a href="provenance.json"><i data-lucide="file-check-2"></i><span data-i18n="provenance">数据溯源</span></a>
+    <a href="../../README.md"><i data-lucide="book-open"></i><span data-i18n="readme">项目 README</span></a>
+    <span>GRIDPULSE / OFFLINE RESEARCH</span>
+  </footer>
+  <noscript>本演示需要 JavaScript。This presentation requires JavaScript. Read the project README for static figures and results.</noscript>
+</body>
+</html>

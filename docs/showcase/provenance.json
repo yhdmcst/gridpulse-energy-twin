@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "duration_seconds": 28,
+  "date": "2022-01-23",
+  "experiment": "fusion_v8",
+  "condition": {
+    "year": "2022",
+    "mode": "fresh6",
+    "case": "combined90",
+    "event": "combined_fault",
+    "policy": "envelope_tail"
+  },
+  "scope": "A selected 24-hour explanatory example from an offline simulation, not a screen recording or new evaluation.",
+  "selection_note": "Selected to show nonzero storage movement and injected faults in one day; not an unbiased performance sample.",
+  "plan": {
+    "power_mw": 875,
+    "efficiency": 0.85,
+    "target_mwh": 15000
+  },
+  "source_sha256": {
+    "outputs/fusion_v8/evaluation/2022/fresh6/combined90/combined_fault/envelope_tail.csv": "deb984e0fc35dd43b27f30343b91fd14de995c4a7e36755173a16fddcced65e0",
+    "outputs/fusion_v6/panels/2022/data_seed42/fresh6.csv": "591d85476a3306670f9674041bec75901641c5a44fcb7311fed136cf2a4e355c",
+    "outputs/fusion_v6/panels/2022/data_seed42/delayed3.csv": "37f73073579b63ed6feb9d65a495ff0347daff0a6d66024bfdc34d124d662c77"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-28",
+  "operation": "Report-only synthesis; no new model training or dispatch experiments.",
+  "source_root": "03_源代码",
+  "sources_sha256": {
+    "outputs/fusion_v1/summary/summary.json": "79f19a84f3dfeabb7a6ccc189213ebf19ce8024ec1b6c02ad8a5ca24303d25c1",
+    "outputs/fusion_v3_analysis.json": "6f20d9d1f5dc83b0e501b0d6fca62c452e2dc95cc2099dbd357f6b5435ec23f3",
+    "outputs/fusion_v5_analysis.json": "9d345c68ba69defa916881d15c2ec1c78b1a5c3b1e675e74fac86809a0478c3f",
+    "outputs/fusion_v6_analysis.json": "ea05b2442859fdefbf1b209d47abd30f9c385cc75166831e2d177bf7c9a5f16e",
+    "outputs/fusion_v7_analysis.json": "9a2f522ce91e454886fb7b022ed47dcbaf06354d7f8f7dcfda8ac17df3c26cee",
+    "outputs/fusion_v8_analysis.json": "1077ee14a5a7291089357e4b6c5dd8fde38bcb12ac834fe97bfc7464a3a93753",
+    "outputs/fusion_v8/selection.json": "2c3e1e9cf448d7bd890590434d48819af2080463bf69a3e5de6e67e1af526020",
+    "outputs/fusion_v8_local_verification.json": "9a2a1d51d0829719e737dd812b2cdb3889501ada1357fa32b8c7f983a81c7085",
+    "outputs/fusion_v8/manifest.json": "7f56602489ef49e945f24ae40fafa1f200f59e47bdf48059adb83d7e277f46ee",
+    "outputs/fusion_v3/samples.json": "59861c35264de50f5ab43069616cceb8a93d92d2823d1464202ea58ca7034a0f",
+    "outputs/fusion_v8/samples.json": "4f9069ac7cb05c241b425fd617ddd9337a375736e359f5553aa1fe5ab6c70db7",
+    "outputs/fusion_v1/data_seed42/manifest.json": "941260efe3b460336bc7294c1fe747af5c3072460e17bffc33f51383a33a1a42",
+    "src/recovery_control.py": "23244215bb4012e2d7bb4512e5e96e71ac35f3716cca2949cfbb7243eea61ed2",
+    "src/feedback_control.py": "68314ac9677df5965ba5328c97847ea4396b2a8eb25186d1ce280beee28f7b3b",
+    "docs/fusion-dispatch-report.md": "505567add76e251d546d1d45fcd2979c56d895c38d8a62100322eff4408e2698",
+    "docs/fusion-tail-control-report.md": "d2751ebd3b6d0f3b8f326a7410b5b3af8fc9241a1e294bebefe1c6f9e994ee70",
+    "outputs/fusion_v3/metrics.json": "13503654ba38233e745e35fc603d2b354aba1844bf43734e91a1571473b31340",
+    "outputs/fusion_v5/metrics.json": "5108b647cc9be28edf0cde76c769c38048238d6c67108278702d3615b66e71dc",
+    "src/envelope_planning.py": "fe19cc5611d0b800b609a41fd27b9905f63eebee694d6de6b014fa8abb13eae3",
+    "src/physics_forecast.py": "c752cf5c581d202997478437f79a6793fdfc717a788d84beae2b645ad0ccdd20",
+    "src/fusion_evidence.py": "baaaa16bcfaa29435f60f92af5815626d428dc1bb64a4719d9bf73b7836bbbe5",
+    "app.py": "27b5832beffb5ce53288c20acd24a425649f16cb4cd9fa5caf15597f27e36cd5",
+    "experiments/fusion_v1/protocol.md": "947c2119ea0cd4a7bf707b3007e568651523126742a5d2b479825f197e130a24",
+    "experiments/fusion_v8/protocol.md": "9bcefc700613dd07b364cc7762e017a7983318b219cc322117a475726f696bad",
+    "outputs/fusion_v8/evaluation/2022/fresh6/combined90/combined_fault/envelope_tail.csv": "deb984e0fc35dd43b27f30343b91fd14de995c4a7e36755173a16fddcced65e0"
+  },
+  "aggregation": {
+    "prediction": "Arithmetic mean of seeds 42/43/44; HGB is one deterministic baseline.",
+    "horizon_and_tail": "Previously computed fixed-seed means, not pooled-hour maxima.",
+    "envelope": "All 30 retained-candidate in-envelope evaluation conditions, fixed seed42.",
+    "fault_replay": "First scheduled combined-fault UTC day in 2022, not best-case selection."
+  },
+  "rendering": "Local Python/Matplotlib; editable SVG/PDF and PNG. No external image service.",
+  "uncertainty": "Raw paired fixed seeds where available; no new CIs, p-values or independent-trial claims.",
+  "limits": "Exploratory inspected years; exact simulator SOC; supplied lower envelope; offline only.",
+  "skill": {
+    "name": "nature-figure",
+    "version": "2.8.0",
+    "backend": "python",
+    "target": "Competition report, not a Nature journal submission"
+  },
+  "generator_sha256": {
+    "competition_common.py": "7ad27ab0aeadfccf0423e6286654a1d95ef53f240ec88a126f8e9a97a38c800a",
+    "competition_figures.py": "f3c540263b4262006109558b0f817085a4118168c14446ea83e5f6b7b24e5356",
+    "competition_report.py": "b20aa194a9b01ec10198926f0b2de360ab402db27f338b3fdc2ab1b250414150",
+    "competition_audit.py": "ea42cf816f76c0e71bb1cacd33b8445ca4e604ed8fb74a2678e5dd16b95c3cb2",
+    "competition_template.md": "63189ca6f2be33668e2886c6746d981200aad38b7283a3578387dbe4011a4fdb",
+    "competition_metadata.json": "6e81b23cbb67c429bb9dc7f29b72c018b5c367d29c2eea6cb7dfec9d411a9271",
+    "build_report.py": "285f8c8499e4b98130c94186c7b25d02996a3fbb9bddce35e68abf6775483dec",
+    "report_evidence.py": "2307f40b155b1288c7528dab94199753c2acd24c6b9055ae3fe17a9ddd7d7191"
+  },
+  "official_template_sha256": "1e5d87df60d02235bebf225734b7e7dbc6f951cd64e5e02bccd1d4c512834bbf"
+}

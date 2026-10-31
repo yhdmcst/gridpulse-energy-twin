@@ -1,0 +1,1206 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="518.4pt" height="432pt" viewBox="0 0 518.4 432" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-28T22:45:11.957070</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.7, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 432 
+L 518.4 432 
+L 518.4 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 97.13024 405.97976 
+L 206.531819 405.97976 
+L 206.531819 20.64024 
+L 97.13024 20.64024 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <path d="M 103.540443 405.97976 
+L 103.540443 20.64024 
+" clip-path="url(#p05ca1cbf69)" style="fill: none; stroke: #e6ebee; stroke-width: 0.6; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_2">
+      <defs>
+       <path id="md9ea9cbf03" d="M 0 0 
+L 0 3.5 
+" style="stroke: #607079; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#md9ea9cbf03" x="103.540443" y="405.97976" style="fill: #607079; stroke: #607079; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="font-size: 9px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #607079" x="103.540443" y="419.16726" transform="rotate(-0 103.540443 419.16726)">-1000</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_3">
+      <path d="M 142.085469 405.97976 
+L 142.085469 20.64024 
+" clip-path="url(#p05ca1cbf69)" style="fill: none; stroke: #e6ebee; stroke-width: 0.6; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_4">
+      <g>
+       <use xlink:href="#md9ea9cbf03" x="142.085469" y="405.97976" style="fill: #607079; stroke: #607079; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="font-size: 9px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #607079" x="142.085469" y="419.16726" transform="rotate(-0 142.085469 419.16726)">-500</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_5">
+      <path d="M 180.630496 405.97976 
+L 180.630496 20.64024 
+" clip-path="url(#p05ca1cbf69)" style="fill: none; stroke: #e6ebee; stroke-width: 0.6; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_6">
+      <g>
+       <use xlink:href="#md9ea9cbf03" x="180.630496" y="405.97976" style="fill: #607079; stroke: #607079; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="font-size: 9px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #607079" x="180.630496" y="419.16726" transform="rotate(-0 180.630496 419.16726)">0</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_7"/>
+     <g id="text_4">
+      <text style="font-size: 7.6px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #607079" x="93.63024" y="32.585846" transform="rotate(-0 93.63024 32.585846)">21 新6h 名义</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_8"/>
+     <g id="text_5">
+      <text style="font-size: 7.6px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #607079" x="93.63024" y="45.261488" transform="rotate(-0 93.63024 45.261488)">21 新6h 功率90%</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_9"/>
+     <g id="text_6">
+      <text style="font-size: 7.6px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #607079" x="93.63024" y="57.93713" transform="rotate(-0 93.63024 57.93713)">21 新6h 功率70%</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_10"/>
+     <g id="text_7">
+      <text style="font-size: 7.6px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #607079" x="93.63024" y="70.627616" transform="rotate(-0 93.63024 70.627616)">21 新6h 效率.90</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_11"/>
+     <g id="text_8">
+      <text style="font-size: 7.6px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #607079" x="93.63024" y="83.303258" transform="rotate(-0 93.63024 83.303258)">21 新6h 效率.85</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_12"/>
+     <g id="text_9">
+      <text style="font-size: 7.6px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #607079" x="93.63024" y="95.964056" transform="rotate(-0 93.63024 95.964056)">21 新6h 组合90%</text>
+     </g>
+    </g>
+    <g id="ytick_7">
+     <g id="line2d_13"/>
+     <g id="text_10">
+      <text style="font-size: 7.6px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #607079" x="93.63024" y="108.595167" transform="rotate(-0 93.63024 108.595167)">21 延1h 名义</text>
+     </g>
+    </g>
+    <g id="ytick_8">
+     <g id="line2d_14"/>
+     <g id="text_11">
+      <text style="font-size: 7.6px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #607079" x="93.63024" y="121.226278" transform="rotate(-0 93.63024 121.226278)">21 延1h 功率90%</text>
+     </g>
+    </g>
+    <g id="ytick_9">
+     <g id="line2d_15"/>
+     <g id="text_12">
+      <text style="font-size: 7.6px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #607079" x="93.63024" y="133.90192" transform="rotate(-0 93.63024 133.90192)">21 延1h 功率70%</text>
+     </g>
+    </g>
+    <g id="ytick_10">
+     <g id="line2d_16"/>
+     <g id="text_13">
+      <text style="font-size: 7.6px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #607079" x="93.63024" y="146.681468" transform="rotate(-0 93.63024 146.681468)">21 延1h 效率.90</text>
+     </g>
+    </g>
+    <g id="ytick_11">
+     <g id="line2d_17"/>
+     <g id="text_14">
+      <text style="font-size: 7.6px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #607079" x="93.63024" y="159.357111" transform="rotate(-0 93.63024 159.357111)">21 延1h 效率.85</text>
+     </g>
+    </g>
+    <g id="ytick_12">
+     <g id="line2d_18"/>
+     <g id="text_15">
+      <text style="font-size: 7.6px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #607079" x="93.63024" y="171.928846" transform="rotate(-0 93.63024 171.928846)">21 延1h 组合90%</text>
+     </g>
+    </g>
+    <g id="ytick_13">
+     <g id="line2d_19"/>
+     <g id="text_16">
+      <text style="font-size: 7.6px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #607079" x="93.63024" y="184.693551" transform="rotate(-0 93.63024 184.693551)">21 新6h 组合90%/过期</text>
+     </g>
+    </g>
+    <g id="ytick_14">
+     <g id="line2d_20"/>
+     <g id="text_17">
+      <text style="font-size: 7.6px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #607079" x="93.63024" y="197.369193" transform="rotate(-0 93.63024 197.369193)">21 新6h 组合90%/中断</text>
+     </g>
+    </g>
+    <g id="ytick_15">
+     <g id="line2d_21"/>
+     <g id="text_18">
+      <text style="font-size: 7.6px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #607079" x="93.63024" y="210.059679" transform="rotate(-0 93.63024 210.059679)">21 新6h 组合90%/组合故障</text>
+     </g>
+    </g>
+    <g id="ytick_16">
+     <g id="line2d_22"/>
+     <g id="text_19">
+      <text style="font-size: 7.6px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #607079" x="93.63024" y="222.720477" transform="rotate(-0 93.63024 222.720477)">22 新6h 名义</text>
+     </g>
+    </g>
+    <g id="ytick_17">
+     <g id="line2d_23"/>
+     <g id="text_20">
+      <text style="font-size: 7.6px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #607079" x="93.63024" y="235.396119" transform="rotate(-0 93.63024 235.396119)">22 新6h 功率90%</text>
+     </g>
+    </g>
+    <g id="ytick_18">
+     <g id="line2d_24"/>
+     <g id="text_21">
+      <text style="font-size: 7.6px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #607079" x="93.63024" y="248.071762" transform="rotate(-0 93.63024 248.071762)">22 新6h 功率70%</text>
+     </g>
+    </g>
+    <g id="ytick_19">
+     <g id="line2d_25"/>
+     <g id="text_22">
+      <text style="font-size: 7.6px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #607079" x="93.63024" y="260.762247" transform="rotate(-0 93.63024 260.762247)">22 新6h 效率.90</text>
+     </g>
+    </g>
+    <g id="ytick_20">
+     <g id="line2d_26"/>
+     <g id="text_23">
+      <text style="font-size: 7.6px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #607079" x="93.63024" y="273.437889" transform="rotate(-0 93.63024 273.437889)">22 新6h 效率.85</text>
+     </g>
+    </g>
+    <g id="ytick_21">
+     <g id="line2d_27"/>
+     <g id="text_24">
+      <text style="font-size: 7.6px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #607079" x="93.63024" y="286.098688" transform="rotate(-0 93.63024 286.098688)">22 新6h 组合90%</text>
+     </g>
+    </g>
+    <g id="ytick_22">
+     <g id="line2d_28"/>
+     <g id="text_25">
+      <text style="font-size: 7.6px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #607079" x="93.63024" y="298.729799" transform="rotate(-0 93.63024 298.729799)">22 延1h 名义</text>
+     </g>
+    </g>
+    <g id="ytick_23">
+     <g id="line2d_29"/>
+     <g id="text_26">
+      <text style="font-size: 7.6px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #607079" x="93.63024" y="311.36091" transform="rotate(-0 93.63024 311.36091)">22 延1h 功率90%</text>
+     </g>
+    </g>
+    <g id="ytick_24">
+     <g id="line2d_30"/>
+     <g id="text_27">
+      <text style="font-size: 7.6px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #607079" x="93.63024" y="324.036552" transform="rotate(-0 93.63024 324.036552)">22 延1h 功率70%</text>
+     </g>
+    </g>
+    <g id="ytick_25">
+     <g id="line2d_31"/>
+     <g id="text_28">
+      <text style="font-size: 7.6px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #607079" x="93.63024" y="336.8161" transform="rotate(-0 93.63024 336.8161)">22 延1h 效率.90</text>
+     </g>
+    </g>
+    <g id="ytick_26">
+     <g id="line2d_32"/>
+     <g id="text_29">
+      <text style="font-size: 7.6px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #607079" x="93.63024" y="349.491742" transform="rotate(-0 93.63024 349.491742)">22 延1h 效率.85</text>
+     </g>
+    </g>
+    <g id="ytick_27">
+     <g id="line2d_33"/>
+     <g id="text_30">
+      <text style="font-size: 7.6px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #607079" x="93.63024" y="362.063478" transform="rotate(-0 93.63024 362.063478)">22 延1h 组合90%</text>
+     </g>
+    </g>
+    <g id="ytick_28">
+     <g id="line2d_34"/>
+     <g id="text_31">
+      <text style="font-size: 7.6px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #607079" x="93.63024" y="374.828183" transform="rotate(-0 93.63024 374.828183)">22 新6h 组合90%/过期</text>
+     </g>
+    </g>
+    <g id="ytick_29">
+     <g id="line2d_35"/>
+     <g id="text_32">
+      <text style="font-size: 7.6px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #607079" x="93.63024" y="387.503825" transform="rotate(-0 93.63024 387.503825)">22 新6h 组合90%/中断</text>
+     </g>
+    </g>
+    <g id="ytick_30">
+     <g id="line2d_36"/>
+     <g id="text_33">
+      <text style="font-size: 7.6px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #607079" x="93.63024" y="400.194311" transform="rotate(-0 93.63024 400.194311)">22 新6h 组合90%/组合故障</text>
+     </g>
+    </g>
+   </g>
+   <g id="PathCollection_1">
+    <defs>
+     <path id="C0_0_c1f5288555" d="M 0 2 
+C 0.530406 2 1.03916 1.789267 1.414214 1.414214 
+C 1.789267 1.03916 2 0.530406 2 -0 
+C 2 -0.530406 1.789267 -1.03916 1.414214 -1.414214 
+C 1.03916 -1.789267 0.530406 -2 0 -2 
+C -0.530406 -2 -1.03916 -1.789267 -1.414214 -1.414214 
+C -1.789267 -1.03916 -2 -0.530406 -2 0 
+C -2 0.530406 -1.789267 1.03916 -1.414214 1.414214 
+C -1.03916 1.789267 -0.530406 2 0 2 
+z
+"/>
+    </defs>
+    <g clip-path="url(#p05ca1cbf69)">
+     <use xlink:href="#C0_0_c1f5288555" x="182.833252" y="29.513189" style="fill: #b44a48; stroke: #b44a48"/>
+    </g>
+    <g clip-path="url(#p05ca1cbf69)">
+     <use xlink:href="#C0_0_c1f5288555" x="192.452255" y="42.188832" style="fill: #b44a48; stroke: #b44a48"/>
+    </g>
+    <g clip-path="url(#p05ca1cbf69)">
+     <use xlink:href="#C0_0_c1f5288555" x="180.630496" y="54.864474" style="fill: #087f8c; stroke: #087f8c"/>
+    </g>
+    <g clip-path="url(#p05ca1cbf69)">
+     <use xlink:href="#C0_0_c1f5288555" x="192.452255" y="67.540116" style="fill: #b44a48; stroke: #b44a48"/>
+    </g>
+    <g clip-path="url(#p05ca1cbf69)">
+     <use xlink:href="#C0_0_c1f5288555" x="184.860812" y="80.215758" style="fill: #b44a48; stroke: #b44a48"/>
+    </g>
+    <g clip-path="url(#p05ca1cbf69)">
+     <use xlink:href="#C0_0_c1f5288555" x="184.860812" y="92.8914" style="fill: #b44a48; stroke: #b44a48"/>
+    </g>
+    <g clip-path="url(#p05ca1cbf69)">
+     <use xlink:href="#C0_0_c1f5288555" x="173.076734" y="105.567042" style="fill: #087f8c; stroke: #087f8c"/>
+    </g>
+    <g clip-path="url(#p05ca1cbf69)">
+     <use xlink:href="#C0_0_c1f5288555" x="173.076734" y="118.242684" style="fill: #087f8c; stroke: #087f8c"/>
+    </g>
+    <g clip-path="url(#p05ca1cbf69)">
+     <use xlink:href="#C0_0_c1f5288555" x="173.076734" y="130.918326" style="fill: #087f8c; stroke: #087f8c"/>
+    </g>
+    <g clip-path="url(#p05ca1cbf69)">
+     <use xlink:href="#C0_0_c1f5288555" x="113.176699" y="143.593968" style="fill: #087f8c; stroke: #087f8c"/>
+    </g>
+    <g clip-path="url(#p05ca1cbf69)">
+     <use xlink:href="#C0_0_c1f5288555" x="113.176699" y="156.269611" style="fill: #087f8c; stroke: #087f8c"/>
+    </g>
+    <g clip-path="url(#p05ca1cbf69)">
+     <use xlink:href="#C0_0_c1f5288555" x="113.176699" y="168.945253" style="fill: #087f8c; stroke: #087f8c"/>
+    </g>
+    <g clip-path="url(#p05ca1cbf69)">
+     <use xlink:href="#C0_0_c1f5288555" x="184.860812" y="181.620895" style="fill: #b44a48; stroke: #b44a48"/>
+    </g>
+    <g clip-path="url(#p05ca1cbf69)">
+     <use xlink:href="#C0_0_c1f5288555" x="184.860812" y="194.296537" style="fill: #b44a48; stroke: #b44a48"/>
+    </g>
+    <g clip-path="url(#p05ca1cbf69)">
+     <use xlink:href="#C0_0_c1f5288555" x="184.860812" y="206.972179" style="fill: #b44a48; stroke: #b44a48"/>
+    </g>
+    <g clip-path="url(#p05ca1cbf69)">
+     <use xlink:href="#C0_0_c1f5288555" x="184.342925" y="219.647821" style="fill: #b44a48; stroke: #b44a48"/>
+    </g>
+    <g clip-path="url(#p05ca1cbf69)">
+     <use xlink:href="#C0_0_c1f5288555" x="114.83271" y="232.323463" style="fill: #087f8c; stroke: #087f8c"/>
+    </g>
+    <g clip-path="url(#p05ca1cbf69)">
+     <use xlink:href="#C0_0_c1f5288555" x="114.83271" y="244.999105" style="fill: #087f8c; stroke: #087f8c"/>
+    </g>
+    <g clip-path="url(#p05ca1cbf69)">
+     <use xlink:href="#C0_0_c1f5288555" x="114.83271" y="257.674747" style="fill: #087f8c; stroke: #087f8c"/>
+    </g>
+    <g clip-path="url(#p05ca1cbf69)">
+     <use xlink:href="#C0_0_c1f5288555" x="114.83271" y="270.350389" style="fill: #087f8c; stroke: #087f8c"/>
+    </g>
+    <g clip-path="url(#p05ca1cbf69)">
+     <use xlink:href="#C0_0_c1f5288555" x="201.55902" y="283.026032" style="fill: #b44a48; stroke: #b44a48"/>
+    </g>
+    <g clip-path="url(#p05ca1cbf69)">
+     <use xlink:href="#C0_0_c1f5288555" x="102.103039" y="295.701674" style="fill: #087f8c; stroke: #087f8c"/>
+    </g>
+    <g clip-path="url(#p05ca1cbf69)">
+     <use xlink:href="#C0_0_c1f5288555" x="102.103039" y="308.377316" style="fill: #087f8c; stroke: #087f8c"/>
+    </g>
+    <g clip-path="url(#p05ca1cbf69)">
+     <use xlink:href="#C0_0_c1f5288555" x="102.103039" y="321.052958" style="fill: #087f8c; stroke: #087f8c"/>
+    </g>
+    <g clip-path="url(#p05ca1cbf69)">
+     <use xlink:href="#C0_0_c1f5288555" x="118.934514" y="333.7286" style="fill: #087f8c; stroke: #087f8c"/>
+    </g>
+    <g clip-path="url(#p05ca1cbf69)">
+     <use xlink:href="#C0_0_c1f5288555" x="118.934514" y="346.404242" style="fill: #087f8c; stroke: #087f8c"/>
+    </g>
+    <g clip-path="url(#p05ca1cbf69)">
+     <use xlink:href="#C0_0_c1f5288555" x="118.934514" y="359.079884" style="fill: #087f8c; stroke: #087f8c"/>
+    </g>
+    <g clip-path="url(#p05ca1cbf69)">
+     <use xlink:href="#C0_0_c1f5288555" x="201.55902" y="371.755526" style="fill: #b44a48; stroke: #b44a48"/>
+    </g>
+    <g clip-path="url(#p05ca1cbf69)">
+     <use xlink:href="#C0_0_c1f5288555" x="201.55902" y="384.431168" style="fill: #b44a48; stroke: #b44a48"/>
+    </g>
+    <g clip-path="url(#p05ca1cbf69)">
+     <use xlink:href="#C0_0_c1f5288555" x="201.55902" y="397.106811" style="fill: #b44a48; stroke: #b44a48"/>
+    </g>
+   </g>
+   <g id="line2d_37">
+    <path d="M 180.630496 405.97976 
+L 180.630496 20.64024 
+" clip-path="url(#p05ca1cbf69)" style="fill: none; stroke: #607079; stroke-width: 0.7; stroke-linecap: square"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 97.13024 405.97976 
+L 97.13024 20.64024 
+" style="fill: none; stroke: #bbc5ca; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 97.13024 405.97976 
+L 206.531819 405.97976 
+" style="fill: none; stroke: #bbc5ca; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_34">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #202a30" x="81.13024" y="10.39024" transform="rotate(-0 81.13024 10.39024)">a</text>
+   </g>
+   <g id="text_35">
+    <text style="font-size: 9px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #202a30" x="151.83103" y="14.64024" transform="rotate(-0 151.83103 14.64024)">最高点差 / MW</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_5">
+    <path d="M 251.56421 405.97976 
+L 360.96579 405.97976 
+L 360.96579 20.64024 
+L 251.56421 20.64024 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_3">
+    <g id="xtick_4">
+     <g id="line2d_38">
+      <path d="M 281.294616 405.97976 
+L 281.294616 20.64024 
+" clip-path="url(#p1aaf47d17c)" style="fill: none; stroke: #e6ebee; stroke-width: 0.6; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_39">
+      <g>
+       <use xlink:href="#md9ea9cbf03" x="281.294616" y="405.97976" style="fill: #607079; stroke: #607079; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_36">
+      <text style="font-size: 9px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #607079" x="281.294616" y="419.16726" transform="rotate(-0 281.294616 419.16726)">-100</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_40">
+      <path d="M 326.892935 405.97976 
+L 326.892935 20.64024 
+" clip-path="url(#p1aaf47d17c)" style="fill: none; stroke: #e6ebee; stroke-width: 0.6; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_41">
+      <g>
+       <use xlink:href="#md9ea9cbf03" x="326.892935" y="405.97976" style="fill: #607079; stroke: #607079; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_37">
+      <text style="font-size: 9px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #607079" x="326.892935" y="419.16726" transform="rotate(-0 326.892935 419.16726)">0</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_4">
+    <g id="ytick_31">
+     <g id="line2d_42"/>
+    </g>
+    <g id="ytick_32">
+     <g id="line2d_43"/>
+    </g>
+    <g id="ytick_33">
+     <g id="line2d_44"/>
+    </g>
+    <g id="ytick_34">
+     <g id="line2d_45"/>
+    </g>
+    <g id="ytick_35">
+     <g id="line2d_46"/>
+    </g>
+    <g id="ytick_36">
+     <g id="line2d_47"/>
+    </g>
+    <g id="ytick_37">
+     <g id="line2d_48"/>
+    </g>
+    <g id="ytick_38">
+     <g id="line2d_49"/>
+    </g>
+    <g id="ytick_39">
+     <g id="line2d_50"/>
+    </g>
+    <g id="ytick_40">
+     <g id="line2d_51"/>
+    </g>
+    <g id="ytick_41">
+     <g id="line2d_52"/>
+    </g>
+    <g id="ytick_42">
+     <g id="line2d_53"/>
+    </g>
+    <g id="ytick_43">
+     <g id="line2d_54"/>
+    </g>
+    <g id="ytick_44">
+     <g id="line2d_55"/>
+    </g>
+    <g id="ytick_45">
+     <g id="line2d_56"/>
+    </g>
+    <g id="ytick_46">
+     <g id="line2d_57"/>
+    </g>
+    <g id="ytick_47">
+     <g id="line2d_58"/>
+    </g>
+    <g id="ytick_48">
+     <g id="line2d_59"/>
+    </g>
+    <g id="ytick_49">
+     <g id="line2d_60"/>
+    </g>
+    <g id="ytick_50">
+     <g id="line2d_61"/>
+    </g>
+    <g id="ytick_51">
+     <g id="line2d_62"/>
+    </g>
+    <g id="ytick_52">
+     <g id="line2d_63"/>
+    </g>
+    <g id="ytick_53">
+     <g id="line2d_64"/>
+    </g>
+    <g id="ytick_54">
+     <g id="line2d_65"/>
+    </g>
+    <g id="ytick_55">
+     <g id="line2d_66"/>
+    </g>
+    <g id="ytick_56">
+     <g id="line2d_67"/>
+    </g>
+    <g id="ytick_57">
+     <g id="line2d_68"/>
+    </g>
+    <g id="ytick_58">
+     <g id="line2d_69"/>
+    </g>
+    <g id="ytick_59">
+     <g id="line2d_70"/>
+    </g>
+    <g id="ytick_60">
+     <g id="line2d_71"/>
+    </g>
+   </g>
+   <g id="PathCollection_2">
+    <defs>
+     <path id="C1_0_2debb14dca" d="M 0 2 
+C 0.530406 2 1.03916 1.789267 1.414214 1.414214 
+C 1.789267 1.03916 2 0.530406 2 -0 
+C 2 -0.530406 1.789267 -1.03916 1.414214 -1.414214 
+C 1.03916 -1.789267 0.530406 -2 0 -2 
+C -0.530406 -2 -1.03916 -1.789267 -1.414214 -1.414214 
+C -1.789267 -1.03916 -2 -0.530406 -2 0 
+C -2 0.530406 -1.789267 1.03916 -1.414214 1.414214 
+C -1.03916 1.789267 -0.530406 2 0 2 
+z
+"/>
+    </defs>
+    <g clip-path="url(#p1aaf47d17c)">
+     <use xlink:href="#C1_0_2debb14dca" x="307.152565" y="29.513189" style="fill: #087f8c; stroke: #087f8c"/>
+    </g>
+    <g clip-path="url(#p1aaf47d17c)">
+     <use xlink:href="#C1_0_2debb14dca" x="302.292854" y="42.188832" style="fill: #087f8c; stroke: #087f8c"/>
+    </g>
+    <g clip-path="url(#p1aaf47d17c)">
+     <use xlink:href="#C1_0_2debb14dca" x="312.294191" y="54.864474" style="fill: #087f8c; stroke: #087f8c"/>
+    </g>
+    <g clip-path="url(#p1aaf47d17c)">
+     <use xlink:href="#C1_0_2debb14dca" x="277.653021" y="67.540116" style="fill: #087f8c; stroke: #087f8c"/>
+    </g>
+    <g clip-path="url(#p1aaf47d17c)">
+     <use xlink:href="#C1_0_2debb14dca" x="256.53701" y="80.215758" style="fill: #087f8c; stroke: #087f8c"/>
+    </g>
+    <g clip-path="url(#p1aaf47d17c)">
+     <use xlink:href="#C1_0_2debb14dca" x="285.957045" y="92.8914" style="fill: #087f8c; stroke: #087f8c"/>
+    </g>
+    <g clip-path="url(#p1aaf47d17c)">
+     <use xlink:href="#C1_0_2debb14dca" x="279.265403" y="105.567042" style="fill: #087f8c; stroke: #087f8c"/>
+    </g>
+    <g clip-path="url(#p1aaf47d17c)">
+     <use xlink:href="#C1_0_2debb14dca" x="281.680118" y="118.242684" style="fill: #087f8c; stroke: #087f8c"/>
+    </g>
+    <g clip-path="url(#p1aaf47d17c)">
+     <use xlink:href="#C1_0_2debb14dca" x="330.512306" y="130.918326" style="fill: #b44a48; stroke: #b44a48"/>
+    </g>
+    <g clip-path="url(#p1aaf47d17c)">
+     <use xlink:href="#C1_0_2debb14dca" x="295.630122" y="143.593968" style="fill: #087f8c; stroke: #087f8c"/>
+    </g>
+    <g clip-path="url(#p1aaf47d17c)">
+     <use xlink:href="#C1_0_2debb14dca" x="305.072276" y="156.269611" style="fill: #087f8c; stroke: #087f8c"/>
+    </g>
+    <g clip-path="url(#p1aaf47d17c)">
+     <use xlink:href="#C1_0_2debb14dca" x="311.474882" y="168.945253" style="fill: #087f8c; stroke: #087f8c"/>
+    </g>
+    <g clip-path="url(#p1aaf47d17c)">
+     <use xlink:href="#C1_0_2debb14dca" x="285.957045" y="181.620895" style="fill: #087f8c; stroke: #087f8c"/>
+    </g>
+    <g clip-path="url(#p1aaf47d17c)">
+     <use xlink:href="#C1_0_2debb14dca" x="285.957045" y="194.296537" style="fill: #087f8c; stroke: #087f8c"/>
+    </g>
+    <g clip-path="url(#p1aaf47d17c)">
+     <use xlink:href="#C1_0_2debb14dca" x="285.957045" y="206.972179" style="fill: #087f8c; stroke: #087f8c"/>
+    </g>
+    <g clip-path="url(#p1aaf47d17c)">
+     <use xlink:href="#C1_0_2debb14dca" x="349.418692" y="219.647821" style="fill: #b44a48; stroke: #b44a48"/>
+    </g>
+    <g clip-path="url(#p1aaf47d17c)">
+     <use xlink:href="#C1_0_2debb14dca" x="342.220428" y="232.323463" style="fill: #b44a48; stroke: #b44a48"/>
+    </g>
+    <g clip-path="url(#p1aaf47d17c)">
+     <use xlink:href="#C1_0_2debb14dca" x="300.707725" y="244.999105" style="fill: #087f8c; stroke: #087f8c"/>
+    </g>
+    <g clip-path="url(#p1aaf47d17c)">
+     <use xlink:href="#C1_0_2debb14dca" x="311.13307" y="257.674747" style="fill: #087f8c; stroke: #087f8c"/>
+    </g>
+    <g clip-path="url(#p1aaf47d17c)">
+     <use xlink:href="#C1_0_2debb14dca" x="342.774259" y="270.350389" style="fill: #b44a48; stroke: #b44a48"/>
+    </g>
+    <g clip-path="url(#p1aaf47d17c)">
+     <use xlink:href="#C1_0_2debb14dca" x="337.882335" y="283.026032" style="fill: #b44a48; stroke: #b44a48"/>
+    </g>
+    <g clip-path="url(#p1aaf47d17c)">
+     <use xlink:href="#C1_0_2debb14dca" x="355.99299" y="295.701674" style="fill: #b44a48; stroke: #b44a48"/>
+    </g>
+    <g clip-path="url(#p1aaf47d17c)">
+     <use xlink:href="#C1_0_2debb14dca" x="328.959957" y="308.377316" style="fill: #b44a48; stroke: #b44a48"/>
+    </g>
+    <g clip-path="url(#p1aaf47d17c)">
+     <use xlink:href="#C1_0_2debb14dca" x="308.030227" y="321.052958" style="fill: #087f8c; stroke: #087f8c"/>
+    </g>
+    <g clip-path="url(#p1aaf47d17c)">
+     <use xlink:href="#C1_0_2debb14dca" x="301.416371" y="333.7286" style="fill: #087f8c; stroke: #087f8c"/>
+    </g>
+    <g clip-path="url(#p1aaf47d17c)">
+     <use xlink:href="#C1_0_2debb14dca" x="315.642133" y="346.404242" style="fill: #087f8c; stroke: #087f8c"/>
+    </g>
+    <g clip-path="url(#p1aaf47d17c)">
+     <use xlink:href="#C1_0_2debb14dca" x="335.766392" y="359.079884" style="fill: #b44a48; stroke: #b44a48"/>
+    </g>
+    <g clip-path="url(#p1aaf47d17c)">
+     <use xlink:href="#C1_0_2debb14dca" x="340.485412" y="371.755526" style="fill: #b44a48; stroke: #b44a48"/>
+    </g>
+    <g clip-path="url(#p1aaf47d17c)">
+     <use xlink:href="#C1_0_2debb14dca" x="337.882335" y="384.431168" style="fill: #b44a48; stroke: #b44a48"/>
+    </g>
+    <g clip-path="url(#p1aaf47d17c)">
+     <use xlink:href="#C1_0_2debb14dca" x="340.485412" y="397.106811" style="fill: #b44a48; stroke: #b44a48"/>
+    </g>
+   </g>
+   <g id="line2d_72">
+    <path d="M 326.892935 405.97976 
+L 326.892935 20.64024 
+" clip-path="url(#p1aaf47d17c)" style="fill: none; stroke: #607079; stroke-width: 0.7; stroke-linecap: square"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 251.56421 405.97976 
+L 251.56421 20.64024 
+" style="fill: none; stroke: #bbc5ca; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 251.56421 405.97976 
+L 360.96579 405.97976 
+" style="fill: none; stroke: #bbc5ca; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_38">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #202a30" x="235.56421" y="10.39024" transform="rotate(-0 235.56421 10.39024)">b</text>
+   </g>
+   <g id="text_39">
+    <text style="font-size: 9px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #202a30" x="306.265" y="14.64024" transform="rotate(-0 306.265 14.64024)">P95差 / MW</text>
+   </g>
+  </g>
+  <g id="axes_3">
+   <g id="patch_8">
+    <path d="M 405.998181 405.97976 
+L 515.39976 405.97976 
+L 515.39976 20.64024 
+L 405.998181 20.64024 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g clip-path="url(#p3195b0a615)">
+    <image xlink:href="data:image/png;base64,
+iVBORw0KGgoAAAANSUhEUgAAAAUAAAAeCAYAAADkftS9AAAAVklEQVR4nGO89PLpf6kHjxmeKcgywAATAxbABCKQVcEFQdqRARMKjzwz0QETjIFsGROMQZzj0QETFRyP1UnPcPnoGdHulEI3E6s7SQs6CkKJeCcRZSYAZg0duO6nx4UAAAAASUVORK5CYII=" id="image18f7323ee6" transform="matrix(21.880316 0 0 12.844651 405.998181 20.64024)" style="image-rendering:crisp-edges;image-rendering:pixelated" width="5" height="30"/>
+   </g>
+   <g id="matplotlib.axis_5">
+    <g id="xtick_6">
+     <g id="line2d_73">
+      <g>
+       <use xlink:href="#md9ea9cbf03" x="416.938339" y="405.97976" style="fill: #607079; stroke: #607079; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_40">
+      <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; fill: #607079" transform="translate(419.610214 428.97976) rotate(-90)">恢复</text>
+     </g>
+    </g>
+    <g id="xtick_7">
+     <g id="line2d_74">
+      <g>
+       <use xlink:href="#md9ea9cbf03" x="438.818655" y="405.97976" style="fill: #607079; stroke: #607079; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_41">
+      <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; fill: #607079" transform="translate(441.506155 428.97976) rotate(-90)">峰值</text>
+     </g>
+    </g>
+    <g id="xtick_8">
+     <g id="line2d_75">
+      <g>
+       <use xlink:href="#md9ea9cbf03" x="460.69897" y="405.97976" style="fill: #607079; stroke: #607079; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_42">
+      <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; fill: #607079" transform="translate(462.94897 424.97976) rotate(-90)">P95</text>
+     </g>
+    </g>
+    <g id="xtick_9">
+     <g id="line2d_76">
+      <g>
+       <use xlink:href="#md9ea9cbf03" x="482.579286" y="405.97976" style="fill: #607079; stroke: #607079; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_43">
+      <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; fill: #607079" transform="translate(485.141786 428.97976) rotate(-90)">吞吐</text>
+     </g>
+    </g>
+    <g id="xtick_10">
+     <g id="line2d_77">
+      <g>
+       <use xlink:href="#md9ea9cbf03" x="504.459602" y="405.97976" style="fill: #607079; stroke: #607079; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_44">
+      <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; fill: #607079" transform="translate(507.147102 428.97976) rotate(-90)">损耗</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_6"/>
+   <g id="patch_9">
+    <path d="M 405.998181 405.97976 
+L 405.998181 20.64024 
+" style="fill: none; stroke: #bbc5ca; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 405.998181 405.97976 
+L 515.39976 405.97976 
+" style="fill: none; stroke: #bbc5ca; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_45">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="416.938339" y="29.312565" transform="rotate(-0 416.938339 29.312565)">.</text>
+   </g>
+   <g id="text_46">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #b44a48" x="438.818655" y="29.312565" transform="rotate(-0 438.818655 29.312565)">x</text>
+   </g>
+   <g id="text_47">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="460.69897" y="29.312565" transform="rotate(-0 460.69897 29.312565)">.</text>
+   </g>
+   <g id="text_48">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="482.579286" y="29.312565" transform="rotate(-0 482.579286 29.312565)">.</text>
+   </g>
+   <g id="text_49">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="504.459602" y="29.312565" transform="rotate(-0 504.459602 29.312565)">.</text>
+   </g>
+   <g id="text_50">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="416.938339" y="42.157216" transform="rotate(-0 416.938339 42.157216)">.</text>
+   </g>
+   <g id="text_51">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #b44a48" x="438.818655" y="42.157216" transform="rotate(-0 438.818655 42.157216)">x</text>
+   </g>
+   <g id="text_52">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="460.69897" y="42.157216" transform="rotate(-0 460.69897 42.157216)">.</text>
+   </g>
+   <g id="text_53">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="482.579286" y="42.157216" transform="rotate(-0 482.579286 42.157216)">.</text>
+   </g>
+   <g id="text_54">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="504.459602" y="42.157216" transform="rotate(-0 504.459602 42.157216)">.</text>
+   </g>
+   <g id="text_55">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="416.938339" y="55.001867" transform="rotate(-0 416.938339 55.001867)">.</text>
+   </g>
+   <g id="text_56">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="438.818655" y="55.001867" transform="rotate(-0 438.818655 55.001867)">.</text>
+   </g>
+   <g id="text_57">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="460.69897" y="55.001867" transform="rotate(-0 460.69897 55.001867)">.</text>
+   </g>
+   <g id="text_58">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="482.579286" y="55.001867" transform="rotate(-0 482.579286 55.001867)">.</text>
+   </g>
+   <g id="text_59">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="504.459602" y="55.001867" transform="rotate(-0 504.459602 55.001867)">.</text>
+   </g>
+   <g id="text_60">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="416.938339" y="67.846517" transform="rotate(-0 416.938339 67.846517)">.</text>
+   </g>
+   <g id="text_61">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #b44a48" x="438.818655" y="67.846517" transform="rotate(-0 438.818655 67.846517)">x</text>
+   </g>
+   <g id="text_62">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="460.69897" y="67.846517" transform="rotate(-0 460.69897 67.846517)">.</text>
+   </g>
+   <g id="text_63">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="482.579286" y="67.846517" transform="rotate(-0 482.579286 67.846517)">.</text>
+   </g>
+   <g id="text_64">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="504.459602" y="67.846517" transform="rotate(-0 504.459602 67.846517)">.</text>
+   </g>
+   <g id="text_65">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="416.938339" y="80.691168" transform="rotate(-0 416.938339 80.691168)">.</text>
+   </g>
+   <g id="text_66">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #b44a48" x="438.818655" y="80.691168" transform="rotate(-0 438.818655 80.691168)">x</text>
+   </g>
+   <g id="text_67">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="460.69897" y="80.691168" transform="rotate(-0 460.69897 80.691168)">.</text>
+   </g>
+   <g id="text_68">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="482.579286" y="80.691168" transform="rotate(-0 482.579286 80.691168)">.</text>
+   </g>
+   <g id="text_69">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="504.459602" y="80.691168" transform="rotate(-0 504.459602 80.691168)">.</text>
+   </g>
+   <g id="text_70">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="416.938339" y="93.535819" transform="rotate(-0 416.938339 93.535819)">.</text>
+   </g>
+   <g id="text_71">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #b44a48" x="438.818655" y="93.535819" transform="rotate(-0 438.818655 93.535819)">x</text>
+   </g>
+   <g id="text_72">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="460.69897" y="93.535819" transform="rotate(-0 460.69897 93.535819)">.</text>
+   </g>
+   <g id="text_73">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="482.579286" y="93.535819" transform="rotate(-0 482.579286 93.535819)">.</text>
+   </g>
+   <g id="text_74">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="504.459602" y="93.535819" transform="rotate(-0 504.459602 93.535819)">.</text>
+   </g>
+   <g id="text_75">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="416.938339" y="106.380469" transform="rotate(-0 416.938339 106.380469)">.</text>
+   </g>
+   <g id="text_76">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="438.818655" y="106.380469" transform="rotate(-0 438.818655 106.380469)">.</text>
+   </g>
+   <g id="text_77">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="460.69897" y="106.380469" transform="rotate(-0 460.69897 106.380469)">.</text>
+   </g>
+   <g id="text_78">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="482.579286" y="106.380469" transform="rotate(-0 482.579286 106.380469)">.</text>
+   </g>
+   <g id="text_79">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="504.459602" y="106.380469" transform="rotate(-0 504.459602 106.380469)">.</text>
+   </g>
+   <g id="text_80">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="416.938339" y="119.22512" transform="rotate(-0 416.938339 119.22512)">.</text>
+   </g>
+   <g id="text_81">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="438.818655" y="119.22512" transform="rotate(-0 438.818655 119.22512)">.</text>
+   </g>
+   <g id="text_82">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="460.69897" y="119.22512" transform="rotate(-0 460.69897 119.22512)">.</text>
+   </g>
+   <g id="text_83">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="482.579286" y="119.22512" transform="rotate(-0 482.579286 119.22512)">.</text>
+   </g>
+   <g id="text_84">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="504.459602" y="119.22512" transform="rotate(-0 504.459602 119.22512)">.</text>
+   </g>
+   <g id="text_85">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="416.938339" y="132.069771" transform="rotate(-0 416.938339 132.069771)">.</text>
+   </g>
+   <g id="text_86">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="438.818655" y="132.069771" transform="rotate(-0 438.818655 132.069771)">.</text>
+   </g>
+   <g id="text_87">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #b44a48" x="460.69897" y="132.069771" transform="rotate(-0 460.69897 132.069771)">x</text>
+   </g>
+   <g id="text_88">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="482.579286" y="132.069771" transform="rotate(-0 482.579286 132.069771)">.</text>
+   </g>
+   <g id="text_89">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="504.459602" y="132.069771" transform="rotate(-0 504.459602 132.069771)">.</text>
+   </g>
+   <g id="text_90">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="416.938339" y="144.914421" transform="rotate(-0 416.938339 144.914421)">.</text>
+   </g>
+   <g id="text_91">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="438.818655" y="144.914421" transform="rotate(-0 438.818655 144.914421)">.</text>
+   </g>
+   <g id="text_92">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="460.69897" y="144.914421" transform="rotate(-0 460.69897 144.914421)">.</text>
+   </g>
+   <g id="text_93">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="482.579286" y="144.914421" transform="rotate(-0 482.579286 144.914421)">.</text>
+   </g>
+   <g id="text_94">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="504.459602" y="144.914421" transform="rotate(-0 504.459602 144.914421)">.</text>
+   </g>
+   <g id="text_95">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="416.938339" y="157.759072" transform="rotate(-0 416.938339 157.759072)">.</text>
+   </g>
+   <g id="text_96">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="438.818655" y="157.759072" transform="rotate(-0 438.818655 157.759072)">.</text>
+   </g>
+   <g id="text_97">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="460.69897" y="157.759072" transform="rotate(-0 460.69897 157.759072)">.</text>
+   </g>
+   <g id="text_98">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="482.579286" y="157.759072" transform="rotate(-0 482.579286 157.759072)">.</text>
+   </g>
+   <g id="text_99">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="504.459602" y="157.759072" transform="rotate(-0 504.459602 157.759072)">.</text>
+   </g>
+   <g id="text_100">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="416.938339" y="170.603723" transform="rotate(-0 416.938339 170.603723)">.</text>
+   </g>
+   <g id="text_101">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="438.818655" y="170.603723" transform="rotate(-0 438.818655 170.603723)">.</text>
+   </g>
+   <g id="text_102">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="460.69897" y="170.603723" transform="rotate(-0 460.69897 170.603723)">.</text>
+   </g>
+   <g id="text_103">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="482.579286" y="170.603723" transform="rotate(-0 482.579286 170.603723)">.</text>
+   </g>
+   <g id="text_104">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="504.459602" y="170.603723" transform="rotate(-0 504.459602 170.603723)">.</text>
+   </g>
+   <g id="text_105">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="416.938339" y="183.448373" transform="rotate(-0 416.938339 183.448373)">.</text>
+   </g>
+   <g id="text_106">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #b44a48" x="438.818655" y="183.448373" transform="rotate(-0 438.818655 183.448373)">x</text>
+   </g>
+   <g id="text_107">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="460.69897" y="183.448373" transform="rotate(-0 460.69897 183.448373)">.</text>
+   </g>
+   <g id="text_108">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="482.579286" y="183.448373" transform="rotate(-0 482.579286 183.448373)">.</text>
+   </g>
+   <g id="text_109">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="504.459602" y="183.448373" transform="rotate(-0 504.459602 183.448373)">.</text>
+   </g>
+   <g id="text_110">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="416.938339" y="196.293024" transform="rotate(-0 416.938339 196.293024)">.</text>
+   </g>
+   <g id="text_111">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #b44a48" x="438.818655" y="196.293024" transform="rotate(-0 438.818655 196.293024)">x</text>
+   </g>
+   <g id="text_112">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="460.69897" y="196.293024" transform="rotate(-0 460.69897 196.293024)">.</text>
+   </g>
+   <g id="text_113">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="482.579286" y="196.293024" transform="rotate(-0 482.579286 196.293024)">.</text>
+   </g>
+   <g id="text_114">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="504.459602" y="196.293024" transform="rotate(-0 504.459602 196.293024)">.</text>
+   </g>
+   <g id="text_115">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="416.938339" y="209.137675" transform="rotate(-0 416.938339 209.137675)">.</text>
+   </g>
+   <g id="text_116">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #b44a48" x="438.818655" y="209.137675" transform="rotate(-0 438.818655 209.137675)">x</text>
+   </g>
+   <g id="text_117">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="460.69897" y="209.137675" transform="rotate(-0 460.69897 209.137675)">.</text>
+   </g>
+   <g id="text_118">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="482.579286" y="209.137675" transform="rotate(-0 482.579286 209.137675)">.</text>
+   </g>
+   <g id="text_119">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="504.459602" y="209.137675" transform="rotate(-0 504.459602 209.137675)">.</text>
+   </g>
+   <g id="text_120">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="416.938339" y="221.982325" transform="rotate(-0 416.938339 221.982325)">.</text>
+   </g>
+   <g id="text_121">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #b44a48" x="438.818655" y="221.982325" transform="rotate(-0 438.818655 221.982325)">x</text>
+   </g>
+   <g id="text_122">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #b44a48" x="460.69897" y="221.982325" transform="rotate(-0 460.69897 221.982325)">x</text>
+   </g>
+   <g id="text_123">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="482.579286" y="221.982325" transform="rotate(-0 482.579286 221.982325)">.</text>
+   </g>
+   <g id="text_124">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="504.459602" y="221.982325" transform="rotate(-0 504.459602 221.982325)">.</text>
+   </g>
+   <g id="text_125">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="416.938339" y="234.826976" transform="rotate(-0 416.938339 234.826976)">.</text>
+   </g>
+   <g id="text_126">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="438.818655" y="234.826976" transform="rotate(-0 438.818655 234.826976)">.</text>
+   </g>
+   <g id="text_127">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #b44a48" x="460.69897" y="234.826976" transform="rotate(-0 460.69897 234.826976)">x</text>
+   </g>
+   <g id="text_128">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="482.579286" y="234.826976" transform="rotate(-0 482.579286 234.826976)">.</text>
+   </g>
+   <g id="text_129">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="504.459602" y="234.826976" transform="rotate(-0 504.459602 234.826976)">.</text>
+   </g>
+   <g id="text_130">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="416.938339" y="247.671627" transform="rotate(-0 416.938339 247.671627)">.</text>
+   </g>
+   <g id="text_131">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="438.818655" y="247.671627" transform="rotate(-0 438.818655 247.671627)">.</text>
+   </g>
+   <g id="text_132">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="460.69897" y="247.671627" transform="rotate(-0 460.69897 247.671627)">.</text>
+   </g>
+   <g id="text_133">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="482.579286" y="247.671627" transform="rotate(-0 482.579286 247.671627)">.</text>
+   </g>
+   <g id="text_134">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="504.459602" y="247.671627" transform="rotate(-0 504.459602 247.671627)">.</text>
+   </g>
+   <g id="text_135">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="416.938339" y="260.516277" transform="rotate(-0 416.938339 260.516277)">.</text>
+   </g>
+   <g id="text_136">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="438.818655" y="260.516277" transform="rotate(-0 438.818655 260.516277)">.</text>
+   </g>
+   <g id="text_137">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="460.69897" y="260.516277" transform="rotate(-0 460.69897 260.516277)">.</text>
+   </g>
+   <g id="text_138">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="482.579286" y="260.516277" transform="rotate(-0 482.579286 260.516277)">.</text>
+   </g>
+   <g id="text_139">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="504.459602" y="260.516277" transform="rotate(-0 504.459602 260.516277)">.</text>
+   </g>
+   <g id="text_140">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="416.938339" y="273.360928" transform="rotate(-0 416.938339 273.360928)">.</text>
+   </g>
+   <g id="text_141">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="438.818655" y="273.360928" transform="rotate(-0 438.818655 273.360928)">.</text>
+   </g>
+   <g id="text_142">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #b44a48" x="460.69897" y="273.360928" transform="rotate(-0 460.69897 273.360928)">x</text>
+   </g>
+   <g id="text_143">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="482.579286" y="273.360928" transform="rotate(-0 482.579286 273.360928)">.</text>
+   </g>
+   <g id="text_144">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="504.459602" y="273.360928" transform="rotate(-0 504.459602 273.360928)">.</text>
+   </g>
+   <g id="text_145">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="416.938339" y="286.205579" transform="rotate(-0 416.938339 286.205579)">.</text>
+   </g>
+   <g id="text_146">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #b44a48" x="438.818655" y="286.205579" transform="rotate(-0 438.818655 286.205579)">x</text>
+   </g>
+   <g id="text_147">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #b44a48" x="460.69897" y="286.205579" transform="rotate(-0 460.69897 286.205579)">x</text>
+   </g>
+   <g id="text_148">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="482.579286" y="286.205579" transform="rotate(-0 482.579286 286.205579)">.</text>
+   </g>
+   <g id="text_149">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="504.459602" y="286.205579" transform="rotate(-0 504.459602 286.205579)">.</text>
+   </g>
+   <g id="text_150">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="416.938339" y="299.050229" transform="rotate(-0 416.938339 299.050229)">.</text>
+   </g>
+   <g id="text_151">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="438.818655" y="299.050229" transform="rotate(-0 438.818655 299.050229)">.</text>
+   </g>
+   <g id="text_152">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #b44a48" x="460.69897" y="299.050229" transform="rotate(-0 460.69897 299.050229)">x</text>
+   </g>
+   <g id="text_153">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="482.579286" y="299.050229" transform="rotate(-0 482.579286 299.050229)">.</text>
+   </g>
+   <g id="text_154">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="504.459602" y="299.050229" transform="rotate(-0 504.459602 299.050229)">.</text>
+   </g>
+   <g id="text_155">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="416.938339" y="311.89488" transform="rotate(-0 416.938339 311.89488)">.</text>
+   </g>
+   <g id="text_156">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="438.818655" y="311.89488" transform="rotate(-0 438.818655 311.89488)">.</text>
+   </g>
+   <g id="text_157">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #b44a48" x="460.69897" y="311.89488" transform="rotate(-0 460.69897 311.89488)">x</text>
+   </g>
+   <g id="text_158">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="482.579286" y="311.89488" transform="rotate(-0 482.579286 311.89488)">.</text>
+   </g>
+   <g id="text_159">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="504.459602" y="311.89488" transform="rotate(-0 504.459602 311.89488)">.</text>
+   </g>
+   <g id="text_160">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="416.938339" y="324.739531" transform="rotate(-0 416.938339 324.739531)">.</text>
+   </g>
+   <g id="text_161">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="438.818655" y="324.739531" transform="rotate(-0 438.818655 324.739531)">.</text>
+   </g>
+   <g id="text_162">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="460.69897" y="324.739531" transform="rotate(-0 460.69897 324.739531)">.</text>
+   </g>
+   <g id="text_163">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="482.579286" y="324.739531" transform="rotate(-0 482.579286 324.739531)">.</text>
+   </g>
+   <g id="text_164">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="504.459602" y="324.739531" transform="rotate(-0 504.459602 324.739531)">.</text>
+   </g>
+   <g id="text_165">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="416.938339" y="337.584181" transform="rotate(-0 416.938339 337.584181)">.</text>
+   </g>
+   <g id="text_166">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="438.818655" y="337.584181" transform="rotate(-0 438.818655 337.584181)">.</text>
+   </g>
+   <g id="text_167">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="460.69897" y="337.584181" transform="rotate(-0 460.69897 337.584181)">.</text>
+   </g>
+   <g id="text_168">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="482.579286" y="337.584181" transform="rotate(-0 482.579286 337.584181)">.</text>
+   </g>
+   <g id="text_169">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="504.459602" y="337.584181" transform="rotate(-0 504.459602 337.584181)">.</text>
+   </g>
+   <g id="text_170">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="416.938339" y="350.428832" transform="rotate(-0 416.938339 350.428832)">.</text>
+   </g>
+   <g id="text_171">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="438.818655" y="350.428832" transform="rotate(-0 438.818655 350.428832)">.</text>
+   </g>
+   <g id="text_172">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="460.69897" y="350.428832" transform="rotate(-0 460.69897 350.428832)">.</text>
+   </g>
+   <g id="text_173">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="482.579286" y="350.428832" transform="rotate(-0 482.579286 350.428832)">.</text>
+   </g>
+   <g id="text_174">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="504.459602" y="350.428832" transform="rotate(-0 504.459602 350.428832)">.</text>
+   </g>
+   <g id="text_175">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="416.938339" y="363.273483" transform="rotate(-0 416.938339 363.273483)">.</text>
+   </g>
+   <g id="text_176">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="438.818655" y="363.273483" transform="rotate(-0 438.818655 363.273483)">.</text>
+   </g>
+   <g id="text_177">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #b44a48" x="460.69897" y="363.273483" transform="rotate(-0 460.69897 363.273483)">x</text>
+   </g>
+   <g id="text_178">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="482.579286" y="363.273483" transform="rotate(-0 482.579286 363.273483)">.</text>
+   </g>
+   <g id="text_179">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="504.459602" y="363.273483" transform="rotate(-0 504.459602 363.273483)">.</text>
+   </g>
+   <g id="text_180">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="416.938339" y="376.118133" transform="rotate(-0 416.938339 376.118133)">.</text>
+   </g>
+   <g id="text_181">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #b44a48" x="438.818655" y="376.118133" transform="rotate(-0 438.818655 376.118133)">x</text>
+   </g>
+   <g id="text_182">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #b44a48" x="460.69897" y="376.118133" transform="rotate(-0 460.69897 376.118133)">x</text>
+   </g>
+   <g id="text_183">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="482.579286" y="376.118133" transform="rotate(-0 482.579286 376.118133)">.</text>
+   </g>
+   <g id="text_184">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="504.459602" y="376.118133" transform="rotate(-0 504.459602 376.118133)">.</text>
+   </g>
+   <g id="text_185">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="416.938339" y="388.962784" transform="rotate(-0 416.938339 388.962784)">.</text>
+   </g>
+   <g id="text_186">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #b44a48" x="438.818655" y="388.962784" transform="rotate(-0 438.818655 388.962784)">x</text>
+   </g>
+   <g id="text_187">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #b44a48" x="460.69897" y="388.962784" transform="rotate(-0 460.69897 388.962784)">x</text>
+   </g>
+   <g id="text_188">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="482.579286" y="388.962784" transform="rotate(-0 482.579286 388.962784)">.</text>
+   </g>
+   <g id="text_189">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="504.459602" y="388.962784" transform="rotate(-0 504.459602 388.962784)">.</text>
+   </g>
+   <g id="text_190">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="416.938339" y="401.807435" transform="rotate(-0 416.938339 401.807435)">.</text>
+   </g>
+   <g id="text_191">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #b44a48" x="438.818655" y="401.807435" transform="rotate(-0 438.818655 401.807435)">x</text>
+   </g>
+   <g id="text_192">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #b44a48" x="460.69897" y="401.807435" transform="rotate(-0 460.69897 401.807435)">x</text>
+   </g>
+   <g id="text_193">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="482.579286" y="401.807435" transform="rotate(-0 482.579286 401.807435)">.</text>
+   </g>
+   <g id="text_194">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #087f8c" x="504.459602" y="401.807435" transform="rotate(-0 504.459602 401.807435)">.</text>
+   </g>
+   <g id="text_195">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #202a30" x="389.998181" y="10.39024" transform="rotate(-0 389.998181 10.39024)">c</text>
+   </g>
+   <g id="text_196">
+    <text style="font-size: 8px; font-family: 'SimHei', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #202a30" x="460.69897" y="14.64024" transform="rotate(-0 460.69897 14.64024)">预算通过 = ·  未过 = ×</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p05ca1cbf69">
+   <rect x="97.13024" y="20.64024" width="109.401579" height="385.33952"/>
+  </clipPath>
+  <clipPath id="p1aaf47d17c">
+   <rect x="251.56421" y="20.64024" width="109.401579" height="385.33952"/>
+  </clipPath>
+  <clipPath id="p3195b0a615">
+   <rect x="405.998181" y="20.64024" width="109.401579" height="385.33952"/>
+  </clipPath>
+ </defs>
+</svg>
